@@ -2,7 +2,7 @@
 
 Done is a minimalist and functional to-do list application that allows users to manage their tasks efficiently. Built using modern web technologies, this app provides a user-friendly interface to add, update, delete, and organize tasks.
 
-![Done Home Page](https://i.ibb.co/mTNBbZF/screenshot.png)
+![Done Home Page](https://github.com/yousboot/Done/blob/3a002cb1c4dc6aa1534def30f1c61877f94588bb/screenshot.png)
 
 
 ## Features
