@@ -1,0 +1,27 @@
+{
+  "name": "todo-list-app",
+  "version": "1.0.0",
+  "description": "A Todo List application with React frontend and Express backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && node server.js",
+    "client": "cd frontend && npm start",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "setup": "npm run install-all && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "concurrently": "^6.2.0"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.1.3",
+    "@hello-pangea/dnd": "^16.6.0",
+    "@heroicons/react": "^2.1.5",
+    "axios": "^1.7.5",
+    "react-beautiful-dnd": "^13.1.1"
+  }
+}
